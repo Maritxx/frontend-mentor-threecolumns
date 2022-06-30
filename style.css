@@ -18,10 +18,12 @@ body {
 }
 
 .button a {
-	padding: 25px 35px;
+	padding: 15px 35px;
 	background-color: var(--bg-primary);
-	border-radius: 25px;
+	border-radius: 50px;
 	font-size: 0.9375rem;
+	text-align: center;
+	display: inline-block;
 }
 
 .button:hover a {
@@ -56,7 +58,7 @@ h2 {
 
 .column__container {
 	flex: 0 1 33.3%;
-	padding: 60px;
+	padding: 40px;
 	margin-right: auto;
 }
 
