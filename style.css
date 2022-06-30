@@ -1,1 +1,100 @@
+/*Global Styles*/
+body {
+	background-color: var(--bg-primary);
+	font-family: var(--main-font);
+}
 
+.three-columns {
+	min-height: calc(100vh - 31px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.eightFourty {
+	max-width: 840px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.button a {
+	padding: 25px 35px;
+	background-color: var(--bg-primary);
+	border-radius: 25px;
+	font-size: 0.9375rem;
+}
+
+.button:hover a {
+	background-color: unset;
+	border: 2px solid var(--bg-primary);
+	cursor: pointer;
+	color: var(--bg-primary);
+}
+
+/*Font Styles*/
+h2 {
+	font-size: 2.2rem;
+	font-family: var(--heading-font);
+	font-weight: 700;
+	color: var(--bg-primary);
+	text-transform: uppercase;
+}
+
+.column__container p {
+	font-size: 0.9375rem;
+	color: var(--p-primary);
+	line-height: 1.6;
+}
+
+
+/*Three Column Section*/
+.three-columns__holder {
+	display: flex;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.column__container {
+	flex: 0 1 33.3%;
+	padding: 60px;
+	margin-right: auto;
+}
+
+.sedan__container {
+	background-color: var(--box-one-primary);
+}
+
+.button__sedan a {
+	color: var(--box-one-primary);
+}
+
+.suv__container {
+	background-color: var(--box-two-primary);
+}
+
+.button__suv a {
+	color: var(--box-two-primary);
+}
+
+.luxury__container {
+	background-color: var(--box-three-primary);
+}
+
+.button__luxury a {
+	color: var(--box-three-primary);
+}
+
+
+
+/*Attribution Styles*/
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%); 
+}
+
+/*Media Query*/
