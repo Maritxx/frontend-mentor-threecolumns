@@ -100,3 +100,13 @@ h2 {
 }
 
 /*Media Query*/
+@media screen and (max-width: 890px) {
+	.column__container {
+	flex: 0 1 100%;
+	max-width: 350px;
+	width: 100%;
+	}
+}
+
+
+
