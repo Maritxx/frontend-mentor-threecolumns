@@ -54,6 +54,7 @@ h2 {
 	display: flex;
 	border-radius: 10px;
 	overflow: hidden;
+	margin: 25px;
 }
 
 .column__container {
@@ -102,11 +103,15 @@ h2 {
 /*Media Query*/
 @media screen and (max-width: 890px) {
 	.column__container {
-	flex: 0 1 100%;
-	max-width: 350px;
-	width: 100%;
+		flex: 0 1 100%;
+	}
+
+	.three-columns__holder {
+		flex-direction: column;
 	}
 }
+
+
 
 
 
