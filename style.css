@@ -40,14 +40,14 @@ h2 {
 	font-weight: 700;
 	color: var(--bg-primary);
 	text-transform: uppercase;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 .column__container p {
 	font-size: 0.9375rem;
 	color: var(--p-primary);
 	line-height: 1.6;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 
@@ -61,7 +61,6 @@ h2 {
 
 .column__container {
 	flex: 0 1 33.3%;
-	min-width: 290px;
 	padding: 40px;
 	margin-right: auto;
 }
@@ -91,7 +90,7 @@ h2 {
 }
 
 .button {
-	padding-top: 100px;
+	padding-top: 80px;
 }
 
 /*Attribution Styles*/
@@ -117,7 +116,7 @@ h2 {
 	}
 
 	.button {
-	padding-top: 50px;
+	padding-top: 40px;
 	}
 }
 
