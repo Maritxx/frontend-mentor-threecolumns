@@ -35,7 +35,7 @@ body {
 
 /*Font Styles*/
 h2 {
-	font-size: 2.2rem;
+	font-size: 2.4rem;
 	font-family: var(--heading-font);
 	font-weight: 700;
 	color: var(--bg-primary);
@@ -62,7 +62,6 @@ h2 {
 .column__container {
 	flex: 0 1 33.3%;
 	padding: 40px;
-	margin-right: auto;
 }
 
 .sedan__container {
