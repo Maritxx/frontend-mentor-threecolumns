@@ -40,12 +40,14 @@ h2 {
 	font-weight: 700;
 	color: var(--bg-primary);
 	text-transform: uppercase;
+	padding-top: 50px;
 }
 
 .column__container p {
 	font-size: 0.9375rem;
 	color: var(--p-primary);
 	line-height: 1.6;
+	padding-top: 50px;
 }
 
 
@@ -59,6 +61,7 @@ h2 {
 
 .column__container {
 	flex: 0 1 33.3%;
+	min-width: 290px;
 	padding: 40px;
 	margin-right: auto;
 }
@@ -87,13 +90,16 @@ h2 {
 	color: var(--box-three-primary);
 }
 
-
+.button {
+	padding-top: 100px;
+}
 
 /*Attribution Styles*/
 .attribution {
     font-size: 11px; 
     text-align: center; 
     color: hsl(228, 45%, 44%); 
+    padding: 10px;
 }
 
 .attribution a {
@@ -108,6 +114,10 @@ h2 {
 
 	.three-columns__holder {
 		flex-direction: column;
+	}
+
+	.button {
+	padding-top: 50px;
 	}
 }
 
